@@ -13,7 +13,8 @@ const App = () => {
         <Project />
         <Contact />
       </main>
-      <HeaderRight />
+      <HeaderRight
+       />
     </div>
   );
 };

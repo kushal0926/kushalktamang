@@ -6,7 +6,7 @@ const HeaderRight = () => {
     <div className="flex-[1]">
       <div className="h-screen top-0 hidden md:sticky md:flex items-center justify-center bg-[#26282A] text-[#F0EFE7]">
         <ul className="flex flex-col gap-10">
-          {["home", "about", "project", "contact"].map((item) => (
+          {["home", "about", "projects", "contact"].map((item) => (
             <li
               key={item}
               className="flex items-center justify-start font-medium transition-all duration-200 group sm:text-lg md:text-xl xl:text-3xl gap-x-3 cursor-pointer"

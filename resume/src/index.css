@@ -1,8 +1,39 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+@import "tailwindcss";
 
 * {
   scroll-behavior: smooth;
+  /* font-family: "Edu NSW ACT Cursive", cursive;
+  font-style: normal;
+  font-weight: 500; */
+}
+
+ul {
   font-family: "Edu NSW ACT Cursive", cursive;
   font-style: normal;
+  font-weight: 500;
 }
+
+/* making the border of the image animation */
+.border-animation {
+    /* width: 20rem;
+    height: 20rem; */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid #26282A;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: morph 8s ease-in-out infinite;
+  }
+  
+  @keyframes morph {
+    0% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  }
