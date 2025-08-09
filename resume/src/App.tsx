@@ -6,8 +6,9 @@ import Project from "./components/Project";
 
 const App = () => {
   return (
-    <div className="flex min-h-screen w-full subpixel-antialiased">
+    <div className="flex min-h-screen w-full subpixel-antialiased bg-[#f0efe7]">
       <main className="flex-[3] ">
+        
         <Home />
         <Experience />
         <Project />
