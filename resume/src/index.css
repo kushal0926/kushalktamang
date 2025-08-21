@@ -3,13 +3,10 @@
 
 * {
   scroll-behavior: smooth;
-
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
-
-
 
 ul {
   font-family: "Edu NSW ACT Cursive", cursive;
@@ -17,12 +14,16 @@ ul {
   /* font-weight: 500; */
 }
 
+span {
+  color: #F0EFE7;
+}
+
 /* making the border of the image animation */
 .border-animation {
-  /* width: 20rem;
-    height: 20rem; */
+  width: 10rem;
+  height: 10rem;
   background-size: cover;
-  /* background-position: center center; */
+  background-position: center center;
   background-repeat: no-repeat;
   border: 1px solid #26282A;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;

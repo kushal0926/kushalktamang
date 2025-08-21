@@ -5,11 +5,20 @@ const Home = () => {
     <>
       <div
         id="home"
-        className="flex min-h-screen w-full items-center justify-center text-[#949494]"
+        className="flex min-h-screen p-10 items-center justify-center text-[#949494]"
       >
-        <div className="flex flex-col gap-8 p-5 text-center">
-          <div className="space-y-1 sm:space-y-3 text-left">
-            <motion.h1
+        <div className="flex flex-col gap-8 p-5 text-center ">
+          <div className=" text-left">
+            <motion.img
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 2.0, duration: 0.8 }}
+              src="animeProfile.svg"
+              alt="my-picture"
+              className="border-animation  object-cover mb-7"
+            />
+            <div className="max-w[700px] space-y-5 sm:space-y-7">
+              <motion.h1
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, ease: "easeOut" }}
@@ -21,17 +30,14 @@ const Home = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.0, duration: 0.8 }}
-              className="max-w-[500px] text-lg "
+              className="text-3xl "
             >
-              I’m a <span className="text-[#f0efe7]">Full-Stack Developer</span> who designs and codes. Most designers
-              can't <span className="text-[#f0efe7]">code</span> while most developers can't <span className="text-[#f0efe7]">design</span>. I do both. Turning
-              your ideas into profitable products.
+              I'm a passionate <span>Full-Stack Web Developer</span>. I specialize in building scalable, high-performance <span>web applications</span> with a strong focus on usability, efficiency, and <span>seamless user experiences.</span>
             </motion.p>
+            </div>
           </div>
         </div>
       </div>
-
-      
     </>
   );
 };

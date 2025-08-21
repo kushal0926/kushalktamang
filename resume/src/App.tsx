@@ -6,17 +6,14 @@ import Project from "./components/Project";
 
 const App = () => {
   return (
-
     <div className="flex min-h-screen w-full subpixel-antialiased bg-[#f0efe7]">
-      <Navbar/>
       <main className="flex-[3] bg-[#100e0e] ">
-        
         <Home />
         <Experience />
         <Project />
         <Contact />
       </main>
-      
+      <Navbar />
     </div>
   );
 };
