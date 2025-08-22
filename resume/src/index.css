@@ -16,6 +16,10 @@ ul {
 
 span {
   color: #F0EFE7;
+   transition: color 0.3s ease;
+}
+span:hover {
+  color: #00416A;
 }
 
 /* making the border of the image animation */
@@ -23,7 +27,6 @@ span {
   width: 10rem;
   height: 10rem;
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
   border: 1px solid #26282A;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;

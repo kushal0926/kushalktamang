@@ -1,13 +1,12 @@
-
 import { BiBriefcase, BiCode, BiHome, BiMailSend } from "react-icons/bi";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="flex-[2]">
+    <div className="flex-[1]">
       <div className="h-screen top-0 hidden md:sticky md:flex flex-col items-center justify-center bg-[#100e0e] text-[#F0EFE7]">
         <ul className="flex flex-col gap-5">
-          {["home", "about", "project", "contact"].map((item) => (
+          {["home", "about", "stack", "project", "contact"].map((item) => (
             <li
               key={item}
               className="flex items-center justify-start font-medium transition-all duration-200 group sm:text-lg md:text-xl xl:text-3xl gap-x-3 cursor-pointer"
@@ -54,8 +53,6 @@ const Navbar = () => {
         </a>
       </div>
     </div>
-
-   
   );
 };
 
